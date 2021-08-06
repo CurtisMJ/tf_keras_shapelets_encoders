@@ -11,7 +11,7 @@ The input sequence will be divided into a number of fixed length cells, for whic
 Weights will be initialized per channel, so the total number of categories is "channels * classes"
 ```python
 # Assuming input is shape [None,1000,None]
-encoder = ShapeletEncoder(cells=100,classes=10,return_midpoints=False)
+encoder = ShapeletEncoder(cells=100,classes=10,return_midpoints=True)
 decoder = ShapeletDecoder(cell_length=10,classes=10)
 
 encoded, midpoints = encoder(inputs)
