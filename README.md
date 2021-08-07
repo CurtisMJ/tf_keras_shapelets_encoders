@@ -1,7 +1,7 @@
 # tf_keras_shapelets_encoders
 A fixed interval shapelet encoder and decoder implemented in Tensorflow 2 and Keras
 
-Dependancies are Tensorflow 2 and NumPy
+Dependencies are Tensorflow 2 and NumPy
 
 This repository contains code for 2 Keras layers which comprise a deep learning based encoder and a decoder for fixed interval shapelets along a multi-channel time series graph. 
 I'm not sure how useful this stuff is, I've been using it to analyze data from my weather station.
